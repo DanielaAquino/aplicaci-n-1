@@ -47,12 +47,12 @@ namespace APP1
                     Console.WriteLine("\n Datos de los Contactos: ");
                     for(int f=0; f<15; f++)
                     {
-                        Console.WriteLine(mat[0,f]+""+mat[1,f]+""mat[3,f]+""+mat[4,f]);
+                        Console.WriteLine(mat[0,f]+""+mat[1,f]+""+mat[2,f]+""+mat[3,f]+ " "+mat[4,f]);
                     }
                 }
                 if(op==3)
                 {
-                    int a;
+                    int a,b;
                     Console.Clear();
                     Console.WriteLine("Seleccione el número de contacto que desea Buscar: \n ");
                     a=int.Parse(Console.ReadLine());
