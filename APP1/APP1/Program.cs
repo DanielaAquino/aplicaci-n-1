@@ -47,13 +47,23 @@ namespace APP1
                     Console.WriteLine("\n Datos de los Contactos: ");
                     for(int f=0; f<15; f++)
                     {
-                        Console.WriteLine(mat[0,f]+""+mat[1,f]+""+mat[2,f]+""+mat[3,f]+""+mat[4, f]);
+                        Console.WriteLine(mat[0,f]+""+mat[1,f]+""mat[3,f]+""+mat[4,f]);
                     }
                 }
                 if(op==3)
                 {
+                    int a;
+                    Console.Clear();
+                    Console.WriteLine("Seleccione el número de contacto que desea Buscar: \n ");
+                    a=int.Parse(Console.ReadLine());
+                    Console.Clear();
+                    Console.WriteLine("El contacto que buscaba es: "+ mat[0,a]+ " "+mat[1,a]+ " " + mat[2,a]+ " " + mat[3,a]+ " " + mat[4,a]);
                 }
-
+                Console.ReadKey();
+                Console.Clear();
+                Console.WriteLine("Desea regresar al menú principal [s/n] ");
+                OP=char.Parse(Consele.ReadLine());
+                Console.Clear();
 
             }
         }
