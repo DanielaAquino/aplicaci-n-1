@@ -52,7 +52,7 @@ namespace APP1
                 }
                 if(op==3)
                 {
-                    int a,b;
+                    int a;
                     Console.Clear();
                     Console.WriteLine("Seleccione el número de contacto que desea Buscar: \n ");
                     a=int.Parse(Console.ReadLine());
@@ -62,7 +62,7 @@ namespace APP1
                 Console.ReadKey();
                 Console.Clear();
                 Console.WriteLine("Desea regresar al menú principal [s/n] ");
-                OP=char.Parse(Consele.ReadLine());
+                OP=char.Parse(Console.ReadLine());
                 Console.Clear();
 
             }
